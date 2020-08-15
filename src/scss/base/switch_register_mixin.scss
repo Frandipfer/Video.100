@@ -1,0 +1,10 @@
+@mixin switch-register {
+    color: white;
+    font-size: 13px;
+
+    a {
+        color: $primary-color;
+        text-decoration: underline;
+        font-size: 13px; 
+    }
+}

@@ -1,0 +1,46 @@
+/* Login */
+
+.signup {
+    @include sign-template;
+}
+
+.signup__container{
+    @include sign-template-container;
+    @include input-template;
+}
+
+
+.signup__container--form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+input {
+    border: 2px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    margin: 12px;
+    width: 280px;
+    background: transparent;
+
+}
+
+::placeholder {
+    color: $primary-color;
+}
+
+input:focus {
+    outline: none;
+    font-size: 15px;
+}
+
+.signup--button {
+    @include black-button;
+}
+
+p.signup-signin {
+    @include switch-register;
+    padding-top: 95px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "video.100",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/scss/styles.scss public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frandipfer/Video.100.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frandipfer/Video.100/issues"
+  },
+  "homepage": "https://github.com/Frandipfer/Video.100#readme",
+  "description": ""
+}

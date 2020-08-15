@@ -1,0 +1,57 @@
+/* Signin */
+
+.signin {
+    @include sign-template;
+}
+
+.signin__container{
+    @include sign-template-container;
+    @include input-template;
+}
+
+
+.signin--button {
+    @include black-button;
+}
+
+.signin__container--form a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.signin__container--social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin--social-media {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 8px; 
+    box-shadow: 2px 2px;
+    width: 205px;
+    padding-left: 12px;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        margin: 3px;
+    }
+}
+
+
+p.signin_register {
+    @include switch-register;
+    padding-top: 30px;
+}
+

@@ -1,0 +1,6 @@
+@mixin black-button {
+    cursor: pointer;
+    color: $primary-color;
+    background-color: black;
+    width: 250px;
+}

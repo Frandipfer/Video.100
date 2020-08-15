@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    bottom: 0;
+    position: absolute;
+    
+}
+
+.footer__container {
+    padding: 20px;
+
+    a {
+        font-size: 13px;
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
+    
