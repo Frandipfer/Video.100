@@ -1,30 +1,16 @@
-/* Login */
+/* Signup */
 
+// Signup area
 .signup {
-    @include sign-template;
+    @include register-container;
 }
 
+// Signup container
 .signup__container{
-    @include sign-template-container;
+    @include register-template;
+
+    // form inputs
     @include input-template;
-}
-
-
-.signup__container--form {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 12px;
-    align-items: center;
-}
-
-input {
-    border: 2px solid black;
-    border-bottom: 3px solid black;
-    padding: 10px;
-    margin: 12px;
-    width: 280px;
-    background: transparent;
-
 }
 
 ::placeholder {
@@ -34,10 +20,6 @@ input {
 input:focus {
     outline: none;
     font-size: 15px;
-}
-
-.signup--button {
-    @include black-button;
 }
 
 p.signup-signin {

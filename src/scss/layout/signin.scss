@@ -1,19 +1,27 @@
 /* Signin */
 
+// Signin area
 .signin {
-    @include sign-template;
+    @include register-container;
 }
 
+// Signin container
 .signin__container{
-    @include sign-template-container;
+    @include register-template;
     @include input-template;
+    
+    h2 {
+        color: white;
+        padding-bottom: 42px;
+    }
 }
 
 
-.signin--button {
-    @include black-button;
-}
+// .signin--button {
+//     @include black-button;
+// }
 
+// Forgot password link
 .signin__container--form a {
     font-size: 13px;
     text-decoration: none;
@@ -22,11 +30,13 @@
     cursor: pointer;
 }
 
+// Social media container
 .signin__container--social-media {
     display: flex;
     flex-direction: column;
 }
 
+// Social medias
 .signin--social-media {
     display: flex;
     align-items: center;
@@ -49,7 +59,7 @@
     }
 }
 
-
+// Switch register (from signin to signup)
 p.signin_register {
     @include switch-register;
     padding-top: 30px;

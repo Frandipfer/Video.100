@@ -69,6 +69,7 @@ body {
   padding: 10px;
   border: 2px solid black;
   box-shadow: 1px 2px 3px;
+  background: transparent;
 }
 
 .search__input:focus {
@@ -80,7 +81,7 @@ body {
 .carousel {
   width: 100%;
   height: 500px;
-  overflow: scroll;
+  overflow: initial;
   position: relative;
 }
 .carousel__container {
@@ -170,12 +171,23 @@ body {
   padding-bottom: 12px;
   align-items: center;
 }
-
-.signin--button {
+.signin__container input {
+  border: 2px solid black;
+  border-bottom: 3px solid black;
+  padding: 10px;
+  margin: 12px;
+  width: 280px;
+  background: transparent;
+}
+.signin__container .sign--button {
   cursor: pointer;
   color: white;
   background-color: black;
   width: 250px;
+}
+.signin__container h2 {
+  color: white;
+  padding-bottom: 42px;
 }
 
 .signin__container--form a {
@@ -222,7 +234,7 @@ p.signin_register a {
   font-size: 13px;
 }
 
-/* Login */
+/* Signup */
 .signup {
   width: 100%;
   height: 600px;
@@ -253,21 +265,19 @@ p.signin_register a {
   padding-bottom: 12px;
   align-items: center;
 }
-
-.signup__container--form {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 12px;
-  align-items: center;
-}
-
-input {
+.signup__container input {
   border: 2px solid black;
   border-bottom: 3px solid black;
   padding: 10px;
   margin: 12px;
   width: 280px;
   background: transparent;
+}
+.signup__container .sign--button {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  width: 250px;
 }
 
 ::placeholder {
@@ -277,13 +287,6 @@ input {
 input:focus {
   outline: none;
   font-size: 15px;
-}
-
-.signup--button {
-  cursor: pointer;
-  color: white;
-  background-color: black;
-  width: 250px;
 }
 
 p.signup-signin {

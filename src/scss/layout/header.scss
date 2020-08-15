@@ -7,11 +7,13 @@
     height: 70px;
 }
 
+// Brand logo
 .header__logo img {
     width: 200px;
     margin-left: 10px;
 }
 
+// Profile menu (signin | signup)
 .header__menu {
     text-align: right;
     margin-right: 10px;
@@ -30,7 +32,7 @@
     }
 }
 
-
+// Menu links
 .header__menu ul li {
     margin: 10px 0px;
 
@@ -40,6 +42,7 @@
     }
 }
 
+// Menu links hover
 .header__menu:hover ul, ul:hover{
     display: block;
 

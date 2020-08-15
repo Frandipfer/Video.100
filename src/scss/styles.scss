@@ -1,11 +1,12 @@
-@import "base/typography.scss";
-@import "lib/variables.scss";
-@import "layout/home.scss";
-@import "layout/header.scss";
-@import "layout/search.scss";
-@import "components/buttons.scss";
-@import "base/sign_mixin.scss";
-@import "base/switch_register_mixin.scss";
-@import "layout/signin.scss";
-@import "layout/signup.scss";
-@import "layout/footer.scss";
+@import "base/typography.scss";  // Typographys
+@import "lib/variables.scss";    // Variables
+@import "layout/home.scss";      // General styles
+@import "layout/header.scss";    // Header
+@import "layout/search.scss";    // Search input
+@import "layout/carousel.scss";  // Photo carousel
+@import "components/buttons.scss";             // Buttons
+@import "base/register_template_mixins.scss";  // Template mixins 
+@import "base/switch_register_mixin.scss";     // Switch register 
+@import "layout/signin.scss";                  // Login
+@import "layout/signup.scss";                  // Sign up
+@import "layout/footer.scss";                  // Footer
